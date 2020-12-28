@@ -12,6 +12,7 @@ def using_insert(list_of_programming_languages, another_language)
 end
 
 
-def using_flatten
-  
+def using_flatten(instruments)
+   ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+   flat_array = instruments.flatten
 end 
